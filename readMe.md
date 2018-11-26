@@ -1,0 +1,1 @@
+This project will consist of 3 apis google maps meetup and a music api i will be using javascript html css jquery and making api calls using ajax
