@@ -1,1 +1,1 @@
-This project will consist of 3 apis google maps meetup and a music api i will be using javascript html css jquery and making api calls using ajax
+This project will consist of node.js npm and axios, jquery javascript, html and css it will be a project to access movie data
