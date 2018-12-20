@@ -1,1 +1,7 @@
-This project will consist of node.js npm and axios, jquery javascript, html and css it will be a project to access movie data
+                                                        Movie Tavern
+                                                      Thinkful CApstone
+
+                This is a responsive wepbage using third party Youtube and OMDB APis to present in a unique way
+
+
+                	
