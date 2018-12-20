@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.img-shape {
+    box-shadow: 5px 10px 20px black;
+    margin-top: 30px;
+}
+
+html {
+    background: url(./movieppl.jpg) no-repeat center center fixed;
+    /* position: relative; */
+    background-size: cover;
+    height: 100vh;
+}
+
+.start-btn {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#js-form {
+    height: 200px;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main-click {
+    height: 80px;
+    width: 30%;
+}
+
+.form-box {
+    width: 350px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 80px;
+    border: 1px solid black;
+    background-color: rgba(104, 86, 86, 0.205);
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    box-shadow: 10px 5px 10px black;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+}
+
+.form-box p {
+    margin-top: 10px;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 35px;
+}
+
+.submit-button {
+    background: white;
+    height: 40px;
+    width: 80px;
+    outline: black;
+    margin: 0px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1rem
+}
+
+.trivia-form {
+    margin-top: 100px;
+}
+
+#js-movie-search {
+    height: 30px;
+    width: 140px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.poster-box {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./movie.jpg) no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    height: 800px;
+    width: 100%;
+    color: white;
+    margin-top: 440px;
+    transition: transform .2s;
+    
+    /* margin: auto; */
+}
+.poster-box :hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+/* .movie-info{
+    opacity: 0.5;
+} */
+.youtube-img {
+    margin-top: 50px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.video-container {
+    width: 450px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 40px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-size: 10px;
+    background-color: rgba(119, 10, 7, 0.822);
+    display: inline-block;
+    box-shadow: 10px 5px 10px black;
+    margin: 0px 8px;
+    transition: transform .2s;
+    margin: auto;
+
+}
+.video-container :hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.video-container a {
+    color: white;
+}
+
+.video-display {
+    background: url(./vidmovie.jpeg);
+    background-size: cover;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    
+
+}
+
+/* curtain animations */
+
+.curtain {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.curtain-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.curtain-panel {
+    background: url(./curtains.jpg);
+    width: 50%;
+    height: 100vh;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+.curtain-panel-left {
+    transform: translateX(-100%);
+}
+
+.curtain-panel-right {
+    transform: translateX(100%);
+}
+
+/* .container {
+    position: absolute; 
+    z-index: 1; 
+    width: 100%;
+    height: 100%;
+  } */
+
+input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 0;
+}
+
+input[type=checkbox]:checked~div.curtain-panel-left {
+    transform: translateX(0);
+}
+
+/* Slide the second panel in */
+
+input[type=checkbox]:checked~div.curtain-panel-right {
+    transform: translateX(0);
+}
+
+.curtain-panel {
+    background: url(./curtains.jpg);
+    width: 50%;
+    height: 100vh;
+    float: left;
+    position: relative;
+    z-index: 2;
+    transition: all 1s ease-out;
+}
+
+@media only screen and (min-width: 375px) {
+    .video-container {
+        width: 100%;
+    }
+    .poster-box {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .video-container {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+.poster-box {}
