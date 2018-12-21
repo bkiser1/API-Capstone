@@ -22,6 +22,7 @@
 
    3) Results 
      Once the user submits the apis pull the data simultaneously rendering to the webpage.
+     added hover animation to enlarge poster and text for mor visibilty.
 
 
 
@@ -33,3 +34,23 @@
 
 
 ![image](https://user-images.githubusercontent.com/43221295/50320364-082aad00-049a-11e9-8697-dddd325c481f.png)
+
+
+
+
+<h1>Built with</h1>
+
+
+<p>Javascript</p>
+<p>Jquery</p>
+<p>Html</p>
+<p>Css</p>
+
+
+
+<h1>Features</h1>
+
+
+<p>Cool css Animation</p>
+<p>Ability to search movies and obtain movie info if there is a website abilty to learn even more about the film</p>
+<p>Abilty to see videos pertaining to movie using youtube api</p>
