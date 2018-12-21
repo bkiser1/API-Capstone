@@ -22,7 +22,7 @@
 
    3) Results 
      Once the user submits the apis pull the data simultaneously rendering to the webpage.
-     added hover animation to enlarge poster and text for mor visibilty.
+     added hover animation to enlarge poster and text for more visibilty.
 
 
 
