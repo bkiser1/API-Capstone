@@ -1,7 +1,9 @@
                                                         Movie Tavern
                                                       Thinkful CApstone
 
-                This is a responsive wepbage using third party Youtube and OMDB APis to present in a unique way
+  This is a responsive wepbage using third party Youtube and OMDB APis to render searched movie results  in a unique way.
+  With this app you are able to get advanced movie data on a specific film, view a website pertaining to film and  watch videos about the film based on search results.
+
 
 
     1) Curtain animation 
