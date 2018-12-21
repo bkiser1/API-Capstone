@@ -62,19 +62,10 @@ function openingTranstion() {
     });
 }
 
-function stopCurtainAnimation(){
-    
-    $('.boxed').on('hover',function(){
-        alert('click');
-      
-    });
-}
-
 function containedFuncs() {
     handleSubmit();
     openingTranstion();
     hiddenElements();
-    stopCurtainAnimation();
 }
 $(containedFuncs)
 

@@ -90,7 +90,7 @@ html {
 }
 
 .poster-box {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./movie.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./movie.jpg) no-repeat;
     background-size: cover;
     font-size: 30px;
     text-align: center;
@@ -101,19 +101,21 @@ html {
     color: white;
     margin-top: 440px;
     transition: transform .2s;
-    
     /* margin: auto; */
 }
-.poster-box :hover{
+
+.poster-box :hover {
     transform: scale(1.5);
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
     -ms-transform: scale(1.5);
     -o-transform: scale(1.5);
 }
+
 /* .movie-info{
     opacity: 0.5;
 } */
+
 .youtube-img {
     margin-top: 50px;
     box-shadow: 10px 5px 5px black;
@@ -137,15 +139,16 @@ html {
     margin: 0px 8px;
     transition: transform .2s;
     margin: auto;
-
 }
-.video-container :hover{
+
+.video-container :hover {
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
 }
+
 .video-container a {
     color: white;
 }
@@ -157,8 +160,6 @@ html {
     text-align: center;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Caveat', cursive;
-    
-
 }
 
 /* curtain animations */
