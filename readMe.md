@@ -3,7 +3,7 @@
 
         This is a responsive wepbage using third party Youtube and OMDB APis to render searched movie results  in a unique way.
         With this app you are able to get advanced movie data on a specific film, view a website pertaining to film and  
-        watch videos about the film based on search results.
+                                       watch videos about the film based on search results.
 
 
 
@@ -36,7 +36,7 @@
 
 
 
-![image](https://user-images.githubusercontent.com/43221295/50320364-082aad00-049a-11e9-8697-dddd325c481f.png)
+![image](https://user-images.githubusercontent.com/43221295/50377772-53a39f00-05f1-11e9-90b9-0281d86b1c61.png)
 
 
 
