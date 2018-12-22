@@ -98,9 +98,9 @@ html {
     height: 800px;
     width: 100%;
     color: white;
-    margin-top: 440px;
+    margin-top: 400px;
+    word-wrap: break-word;
     transition: transform .2s;
-    /* margin: auto; */
 }
 
 .poster-box :hover {
@@ -110,8 +110,6 @@ html {
     -ms-transform: scale(1.5);
     -o-transform: scale(1.5);
 }
-
-
 
 .youtube-img {
     margin-top: 50px;
@@ -202,8 +200,6 @@ input[type=checkbox]:checked~div.curtain-panel-left {
     transform: translateX(0);
 }
 
-/* Slide the second panel in */
-
 input[type=checkbox]:checked~div.curtain-panel-right {
     transform: translateX(0);
 }
@@ -221,16 +217,37 @@ input[type=checkbox]:checked~div.curtain-panel-right {
 @media only screen and (min-width: 375px) {
     .video-container {
         width: 100%;
+        margin-top: 70px;
     }
     .poster-box {
         font-size: 22px;
+        margin-top: 200px;
+        word-wrap: break-word;
     }
+    
 }
 
 @media only screen and (min-width: 425px) {
     .video-container {
         width: 400px;
         height: 300px;
+    
     }
 }
 
+footer img {
+    height: 80px;
+    background: rgba(119, 10, 7, 0.822);
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: black;
+    font-size: 30px;
+    color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    margin-top: 5px;
+}
