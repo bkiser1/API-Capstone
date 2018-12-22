@@ -41,10 +41,9 @@ function handleSubmit() {
         const query = queryTarget.val();
         getData(query, htmlEnter);
         $('.curtain').hide();
-
-
     });
 }
+
 function hiddenElements() {
     $('.header').hide();
     $('.container').hide();
