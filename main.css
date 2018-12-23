@@ -98,7 +98,7 @@ html {
     height: 800px;
     width: 100%;
     color: white;
-    margin-top: 400px;
+    margin-top: 400px !important;
     word-wrap: break-word;
     transition: transform .2s;
 }
