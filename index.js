@@ -1,5 +1,5 @@
 const YOUTUBE_SEARCH_URL = `https://www.googleapis.com/youtube/v3/search`;
-const OMDB_URL = ` http://www.omdbapi.com/?&apikey=2fbb32ba&t=`;
+const OMDB_URL = ` https://www.omdbapi.com/?&apikey=2fbb32ba&t=`;
 
 
 //retrieve youtube data 
@@ -86,7 +86,7 @@ function handleSubmittedRequest() {
         getData(Query, htmlEnter);
         $('.curtain').hide();
         $('footer').show();
-        $('html,body').animate({ scrollTop: $('.movie-search-results').offset().top }, 800);
+        $('html,body').animate({ scrollTop: $('.movie-search-results').offset().top }, 300);
         return false;   
     });
 }
