@@ -56,6 +56,7 @@ html {
 }
 
 .header {
+    margin-top: 50px;
     text-align: center;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Caveat', cursive;
@@ -99,7 +100,7 @@ html {
     width: 100%;
     color: white;
     margin-top: 400px !important;
-    word-wrap: break-word;
+    word-wrap: break-word
     transition: transform .2s;
 }
 
@@ -236,8 +237,9 @@ input[type=checkbox]:checked~div.curtain-panel-right {
 }
 
 footer img {
-    height: 80px;
+    height: 50px;
     background: rgba(119, 10, 7, 0.822);
+    margin-top: 20px
 }
 
 footer {
