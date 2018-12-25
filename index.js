@@ -21,10 +21,10 @@ function extractDataFromApi(searchterm, callback) {
 function getData(searchTerm, callback) {
     const query = {
         s: `${searchTerm}`,
-        per_page: 5,
+        p: 1-20,
         i: ''
     }
-    $.getJSON(`${OMDB_URL}${searchTerm}&format=json`, callback);
+    $.getJSON(`${OMDB_URL}${searchTerm}&type=movie&format=json`, callback);
 }
 
 function getHtmlElements(results) {
@@ -35,8 +35,6 @@ function getHtmlElements(results) {
              <h2><a href="https://www.youtube.com/watch?v=${results.id.videoId}" target"_blank">
              <img class="youtube-img" src='${results.snippet.thumbnails.medium
             .url}' alt='${results.snippet.title}'><br>${results.snippet.title}</a></h2>
-              <a href='https://www.youtube.com/channel/${results.snippet
-            .channelId}' target='_blank'>${results.snippet.channelTitle}</a>
             </div> `
 }
 
