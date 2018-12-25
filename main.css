@@ -92,7 +92,7 @@ html {
 .poster-box {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./movie.jpg) no-repeat;
     background-size: cover;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Caveat', cursive;
@@ -100,7 +100,7 @@ html {
     width: 100%;
     color: white;
     margin-top: 400px !important;
-    word-wrap: break-word
+    word-wrap: break-word;
     transition: transform .2s;
 }
 
@@ -128,13 +128,13 @@ html {
     border-radius: 40px;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Caveat', cursive;
-    font-size: 10px;
+    font-size: 5px;
     background-color: rgba(119, 10, 7, 0.822);
     display: inline-block;
     box-shadow: 10px 5px 10px black;
     margin: 0px 8px;
     transition: transform .2s;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .video-container :hover {
@@ -225,14 +225,12 @@ input[type=checkbox]:checked~div.curtain-panel-right {
         margin-top: 200px;
         word-wrap: break-word;
     }
-    
 }
 
 @media only screen and (min-width: 425px) {
     .video-container {
         width: 400px;
         height: 300px;
-    
     }
 }
 
