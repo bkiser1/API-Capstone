@@ -7,15 +7,15 @@
 
 
 
-    1) Curtain animation 
+    1: Curtain animation 
       When user clicks on curtains they will retract showing the main page and header.
       this was done using css animation and input hack 
 
 
 
-  ![image](https://user-images.githubusercontent.com/43221295/50318595-225f8d80-0490-11e9-80f0-b75503e1a35e.png)
+  ![image](https://user-images.githubusercontent.com/43221295/50464796-12005480-0961-11e9-8c46-ba5a5b1ff52e.png)
 
-   2) Main page
+   2: Main page
     The input is linked to OMDB API and to the youtube API.
 
 
@@ -23,7 +23,7 @@
  ![image](https://user-images.githubusercontent.com/43221295/50320317-c8fc5c00-0499-11e9-8b16-40568b1dd6b5.png)
 
 
-   3) Results 
+   3: Results 
      Once the user submits the apis pull the data simultaneously rendering to the webpage.
      added hover animation to enlarge poster and text for more visibilty.
 
