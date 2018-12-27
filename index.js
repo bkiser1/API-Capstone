@@ -21,14 +21,13 @@ function extractDataFromApi(searchterm, callback) {
 function getData(searchTerm, callback) {
     const query = {
         s: `${searchTerm}`,
-        p: 1-20,
+        p: 1 - 20,
         i: ''
     }
     $.getJSON(`${OMDB_URL}${searchTerm}&type=movie&format=json`, callback);
 }
 
 function getHtmlElements(results) {
-
 
     return `
              <div class=video-container>
@@ -38,9 +37,7 @@ function getHtmlElements(results) {
             </div> `
 }
 
-
 function renderHtmlElements(movie) {
-
 
     return `<div class="poster-box">
         <img class="img-shape" src="${movie.Poster}" alt="movie img">
@@ -55,7 +52,6 @@ function renderHtmlElements(movie) {
         <p>Runtime: ${movie.Runtime}</p>
         <p>${movie.Production}</p>
         </div>`;
-
 }
 
 //movie callback 
@@ -85,7 +81,7 @@ function handleSubmittedRequest() {
         $('.curtain').hide();
         $('footer').show();
         $('html,body').animate({ scrollTop: $('.movie-search-results').offset().top }, 300);
-        return false;   
+        return false;
     });
 }
 
@@ -107,9 +103,6 @@ function openingTranstion() {
         $('.entry-info').slideToggle(400);
     });
 }
-
-
-
 
 function containedFuncs() {
     openingTranstion();
