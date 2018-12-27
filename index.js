@@ -45,7 +45,7 @@ function renderHtmlElements(movie) {
     return `<div class="poster-box">
         <img class="img-shape" src="${movie.Poster}" alt="movie img">
        
-        
+       
         <h2>${movie.Title}</h2>
         <a href="${movie.Website}"><button>Website</button></a><span>(If Applicable)</span>
         <p>${movie.Genre}</p>
@@ -104,8 +104,12 @@ function openingTranstion() {
         $('.container').slideToggle(800);
         $('.js-movie-search').show();
         $('.video-display').show(800);
+        $('.entry-info').slideToggle(400);
     });
 }
+
+
+
 
 function containedFuncs() {
     openingTranstion();
