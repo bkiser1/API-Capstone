@@ -25,6 +25,7 @@ function getData(searchTerm, callback) {
         i: ''
     }
     $.getJSON(`${OMDB_URL}${searchTerm}&type=movie&format=json`, callback);
+
 }
 
 function getHtmlElements(results) {
@@ -33,7 +34,7 @@ function getHtmlElements(results) {
              <div class=video-container>
              <h2><a href="https://www.youtube.com/watch?v=${results.id.videoId}" target"_blank">
              <img class="youtube-img" src='${results.snippet.thumbnails.medium
-            .url}' alt='${results.snippet.title}'><br>${results.snippet.title}</a></h2>
+            .url}'</h2>
             </div> `
 }
 
@@ -44,7 +45,7 @@ function renderHtmlElements(movie) {
        
        
         <h2>${movie.Title}</h2>
-        <a href="${movie.Website}"><button>Website</button></a><span>(If Applicable)</span>
+        <a href="${movie.Website}"><button>s</button></a><span>(Website)</span>
         <p>${movie.Genre}</p>
         <p>${movie.Plot}</p>
         <p>Released: ${movie.Released}</p>
