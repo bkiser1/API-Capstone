@@ -93,8 +93,7 @@ html {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./movie.jpg) no-repeat center center fixed;
     background-size: cover;
     text-align: center;
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-family: 'Caveat', cursive;
+    font-family: 'Signika', sans-serif;
     height: 800px;
     width: 100%;
     color: white;
@@ -102,7 +101,7 @@ html {
     transition: transform .2s;
 }
 
-.movie-search-results, p {
+.poster-box, p, h2 {
     transform: none !important;
     font-size: 30px;
 }
@@ -153,7 +152,7 @@ html {
 }
 
 .video-display {
-    background: url(./vidmovie.jpeg);
+    background: url(./vidbkg.jpeg);
     background-size: cover;
     font-size: 10px;
     text-align: center;
@@ -235,7 +234,7 @@ input[type=checkbox]:checked~div.curtain-panel-right {
         font-size: 18px;
     }
     .poster-box p {
-        font-size: 23px;
+        font-size: 20px;
     }
     footer {
         width: 100%;
@@ -276,5 +275,12 @@ input[type=checkbox]:checked~div.curtain-panel-right {
         font-family: 'Caveat', cursive;
         background: black;
     }
-
-  
+    .poster-box button {
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent black;
+        border-right: 20px solid transparent black;
+        border-top: 20px solid red;
+        transform: none !important;
+    }
+}
