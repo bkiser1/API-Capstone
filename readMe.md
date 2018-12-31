@@ -13,7 +13,7 @@
 
 
 
-  ![image](https://user-images.githubusercontent.com/43221295/50464796-12005480-0961-11e9-8c46-ba5a5b1ff52e.png)
+  ![image](https://user-images.githubusercontent.com/43221295/50554890-f5ca2380-0c90-11e9-9558-9fbaff787f0d.png)
 
    2: Main page
     The input is linked to OMDB API and to the youtube API.
@@ -30,13 +30,13 @@
 
 
 
-![image](https://user-images.githubusercontent.com/43221295/50320346-ecbfa200-0499-11e9-8784-0840fe39876a.png)
+![image](https://user-images.githubusercontent.com/43221295/50554893-1abe9680-0c91-11e9-8055-f62f99b60369.png)
 
 
 
 
 
-![image](https://user-images.githubusercontent.com/43221295/50377772-53a39f00-05f1-11e9-90b9-0281d86b1c61.png)
+![image](https://user-images.githubusercontent.com/43221295/50554902-493c7180-0c91-11e9-87a1-732f69aa7ec7.png)
 
 
 
@@ -60,3 +60,4 @@
 
 <h2>Live Site</h2>
 <p>Visit: https://bkiser1.github.io/movie-Tavern/</p>
+<p>This site is fully responsive</p>
