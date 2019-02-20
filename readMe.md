@@ -7,13 +7,11 @@
 
 
 
-    1: Curtain animation 
-      When user clicks on curtains they will retract showing the main page and header.
-      this was done using css animation and input hack 
+  <p>Update: removing curtains adding a button element and another image that looks cleaner</p>
 
 
+![screen shot 2019-02-19 at 10 04 54 pm](https://user-images.githubusercontent.com/43221295/53063754-44c35680-3493-11e9-8467-64521863f54c.png)
 
-  ![image](https://user-images.githubusercontent.com/43221295/50554890-f5ca2380-0c90-11e9-9558-9fbaff787f0d.png)
 
    2: Main page
     The input is linked to OMDB API and to the youtube API.
