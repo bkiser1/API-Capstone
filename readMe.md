@@ -1,22 +1,21 @@
-                                                        Movie Tavern
-                                                      Thinkful CApstone
+                                           Movie Tavern
+                                        Thinkful Project
 
-        This is a responsive wepbage using third party Youtube and OMDB APis to render searched movie results  in a unique way.
-        With this app you are able to get advanced movie data on a specific film, view a website pertaining to film and  
-                                       watch videos about the film based on search results.
+This is a responsive wepbage using third party Youtube and OMDB APis to render searched movie results  in a unique way.
+ With this app you are able to get advanced movie data on a specific film, view a website pertaining to film and  watch videos about the film based on search results.
 
 
 
   <p>Update: removing curtains adding a button element and another image that looks cleaner</p>
 
 
-![screen shot 2019-02-19 at 10 04 54 pm](https://user-images.githubusercontent.com/43221295/53063754-44c35680-3493-11e9-8467-64521863f54c.png)
+![screen shot 2019-02-21 at 12 03 09 am](https://user-images.githubusercontent.com/43221295/53144939-41e86480-356c-11e9-8471-9d449f3f3998.png)
 
 
    2: Main page
-    The input links to OMDB API and to the youtube API.
+               <p> The input links to OMDB API and to the youtube API.
      Once the user submits the apis pull the data simultaneously rendering to the webpage.
-     added hover animation to enlarge poster and text for more visibilty.
+            added hover animation to enlarge poster and text for more visibilty.</p>
 
 
 
