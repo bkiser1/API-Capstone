@@ -79,7 +79,6 @@ function handleSubmittedRequest() {
         queryTargeted.val("");
         extractDataFromApi(Query, captureDataForHtml);
         getData(Query, htmlEnter);
-        $('.curtain').hide();
         $('footer').show();
         $('html,body').animate({ scrollTop: $('.movie-search-results').offset().top }, 300);
         return false;
@@ -87,7 +86,6 @@ function handleSubmittedRequest() {
 }
 
 function hiddenElements() {
-    $('.header').hide();
     $('.container').hide();
     $('.js-movie-search').hide();
     $('.video-display').hide();
@@ -95,13 +93,12 @@ function hiddenElements() {
 }
 
 function openingTranstion() {
-    $('.curtain').on('click', function () {
-
-        $('.header').slideToggle(900);
-        $('.container').slideToggle(800);
+    $('.app-start').on('click', function () {
+        $(this).hide();
+        $('.container').show(900);
         $('.js-movie-search').show();
         $('.video-display').show(800);
-        $('.entry-info').slideToggle(400);
+        $('.open-text').hide(400);
     });
 }
 
@@ -111,4 +108,3 @@ function containedFuncs() {
     handleSubmittedRequest();
 }
 $(containedFuncs)
-
