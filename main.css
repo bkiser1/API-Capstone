@@ -9,7 +9,7 @@
 }
 
 html {
-    background: url(./movieppl.jpg) no-repeat center center fixed;
+    background: url(./red.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -61,7 +61,7 @@ html {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Caveat', cursive;
     color: white;
-    font-size: 35px;
+    font-size: 85px;
 }
 
 .submit-button {
@@ -70,23 +70,35 @@ html {
     width: 80px;
     outline: black;
     margin: 0px 10px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    font-size: 1rem
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    box-shadow: 10px 4px ;
 }
+
+.form-box :hover{
+    cursor: pointer;
+}
+
 
 .trivia-form {
     margin-top: 100px;
 }
 
-#js-movie-search {
+#js-movie-search input {
     height: 30px;
     width: 140px;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
 }
 
 .poster-box {
@@ -160,63 +172,6 @@ html {
     font-family: 'Caveat', cursive;
 }
 
-/* curtain animations */
-
-.curtain {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.curtain-wrapper {
-    width: 100%;
-    height: 100%;
-}
-
-.curtain-panel {
-    background: url(./curtains.jpg);
-    width: 50%;
-    height: 100vh;
-    float: left;
-    position: relative;
-    z-index: 2;
-}
-
-.curtain-panel-left {
-    transform: translateX(-100%);
-}
-
-.curtain-panel-right {
-    transform: translateX(100%);
-}
-
-input[type=checkbox] {
-    position: absolute;
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-    opacity: 0;
-}
-
-input[type=checkbox]:checked~div.curtain-panel-left {
-    transform: translateX(0);
-}
-
-input[type=checkbox]:checked~div.curtain-panel-right {
-    transform: translateX(0);
-}
-
-.curtain-panel {
-    background: url(./curtains.jpg);
-    width: 50%;
-    height: 100vh;
-    float: left;
-    position: relative;
-    z-index: 2;
-    transition: all 1s ease-out;
-}
-
 @media only screen and (min-width: 375px) {
     .video-container {
         width: 300px;
@@ -248,6 +203,7 @@ input[type=checkbox]:checked~div.curtain-panel-right {
             width: 300px;
             height: 200px;
         }
+        
     }
     footer img {
         height: 50px;
@@ -266,21 +222,55 @@ input[type=checkbox]:checked~div.curtain-panel-right {
         margin-top: 5px;
         width: 100%;
     }
-    .entry-info {
-        border-bottom: 1px solid black;
-        color: white;
-        text-align: center;
-        font-size: 45px;
-        font-family: 'Fira Sans Condensed', sans-serif;
-        font-family: 'Caveat', cursive;
-        background: black;
-    }
-    .poster-box button {
-        width: 0;
-        height: 0;
-        border-left: 20px solid transparent black;
-        border-right: 20px solid transparent black;
-        border-top: 20px solid red;
-        transform: none !important;
-    }
+    
+}
+
+.poster-box button {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent black;
+    border-right: 20px solid transparent black;
+    border-top: 20px solid red;
+    transform: none !important;
+}
+
+.start-up {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.app-start :focus {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 180px;
+    height: 90px;
+    outline: 0;
+}
+
+#pop-corn {
+    mix-blend-mode: multiply;
+    border-radius: 50px 10px;
+    -webkit-border-radius: 50px 10px;
+    -moz-border-radius: 50px 10px;
+    -ms-border-radius: 50px 10px;
+    -o-border-radius: 50px 10px;
+    height: 80px;
+    width: 120px;
+    box-shadow: 10px 10px 10px;
+}
+
+.start-up p {
+    margin-top: 20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    color: white;
+}
+
+.app-start :hover {
+    cursor: pointer;
 }
