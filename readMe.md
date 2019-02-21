@@ -14,14 +14,7 @@
 
 
    2: Main page
-    The input is linked to OMDB API and to the youtube API.
-
-
-
- ![image](https://user-images.githubusercontent.com/43221295/50320317-c8fc5c00-0499-11e9-8b16-40568b1dd6b5.png)
-
-
-   3: Results 
+    The input links to OMDB API and to the youtube API.
      Once the user submits the apis pull the data simultaneously rendering to the webpage.
      added hover animation to enlarge poster and text for more visibilty.
 
