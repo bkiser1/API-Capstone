@@ -39,13 +39,12 @@ function getHtmlElements(results) {
 }
 
 function renderHtmlElements(movie) {
-
     return `<div class="poster-box">
         <img class="img-shape" src="${movie.Poster}" alt="movie img">
        
        
         <h2>${movie.Title}</h2>
-        <a href="${movie.Website}"><button>s</button></a><span>(Website)</span>
+        <a href="${movie.Website}">View Website</a>
         <p>${movie.Genre}</p>
         <p>${movie.Plot}</p>
         <p>Released: ${movie.Released}</p>
@@ -57,14 +56,12 @@ function renderHtmlElements(movie) {
 
 //movie callback 
 function htmlEnter(data) {
-
     $('.movie-search-results').html(renderHtmlElements(data));
 
 }
 
 //Youtube callbqck
 function captureDataForHtml(data) {
-    console.log(data);
     const info = data.items.map((item, index) => getHtmlElements(item))
 
     $('.video-display').html(info);
@@ -87,16 +84,16 @@ function handleSubmittedRequest() {
 
 function hiddenElements() {
     $('.container').hide();
-    $('.js-movie-search').hide();
+    $('#js-movie-search').hide();
     $('.video-display').hide();
     $('footer').hide();
 }
 
 function openingTranstion() {
-    $('.app-start').on('click', function () {
+    $('#pop-corn').on('click', function () {
         $(this).hide();
-        $('.container').show(900);
-        $('.js-movie-search').show();
+        $('.container').show(00);
+        $('#js-movie-search').show();
         $('.video-display').show(800);
         $('.open-text').hide(400);
     });
