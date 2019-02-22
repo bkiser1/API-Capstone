@@ -56,7 +56,7 @@ html {
 }
 
 .header {
-    margin-top: 50px;
+    margin-top: 5px;
     text-align: center;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Caveat', cursive;
@@ -65,40 +65,39 @@ html {
 }
 
 .submit-button {
-    background: white;
-    height: 40px;
-    width: 80px;
-    outline: black;
-    margin: 0px 10px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-    font-size: 1rem;
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-family: 'Caveat', cursive;
-    box-shadow: 10px 4px ;
+background: white;
+height: 40px;
+width: 80px;
+outline: black;
+margin: 0px 6px;
+border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+-ms-border-radius: 8px;
+-o-border-radius: 8px;
+font-size: 1.5rem;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Caveat', cursive;
+box-shadow: 10px 4px;
 }
 
-.form-box :hover{
+.form-box :hover {
     cursor: pointer;
 }
-
 
 .trivia-form {
     margin-top: 100px;
 }
 
-#js-movie-search input {
-    height: 30px;
+#js-form input {
+    height: 40px;
     width: 140px;
     box-sizing: border-box;
-    border-radius: 20%;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 .poster-box {
@@ -203,7 +202,6 @@ html {
             width: 300px;
             height: 200px;
         }
-        
     }
     footer img {
         height: 50px;
@@ -222,7 +220,6 @@ html {
         margin-top: 5px;
         width: 100%;
     }
-    
 }
 
 .poster-box button {
@@ -241,17 +238,6 @@ html {
     margin-top: 40px;
 }
 
-.app-start :focus {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    width: 180px;
-    height: 90px;
-    outline: 0;
-}
-
 #pop-corn {
     mix-blend-mode: multiply;
     border-radius: 50px 10px;
@@ -259,18 +245,22 @@ html {
     -moz-border-radius: 50px 10px;
     -ms-border-radius: 50px 10px;
     -o-border-radius: 50px 10px;
-    height: 80px;
-    width: 120px;
+    height: 200px;
+    width: 220px;
     box-shadow: 10px 10px 10px;
 }
 
 .start-up p {
-    margin-top: 20px;
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-family: 'Caveat', cursive;
+    margin-top: 50px;
+    font-family: 'Pacifico', cursive;
     color: white;
 }
 
-.app-start :hover {
+.start-up :hover {
     cursor: pointer;
 }
+
+  a {
+   color: white;
+}
+
