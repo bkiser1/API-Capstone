@@ -8,8 +8,13 @@ This is a responsive wepbage using third party Youtube and OMDB APis to render s
 
   <p>Update: removing curtains adding a button element and another image that looks cleaner</p>
 
+![screen shot 2019-02-21 at 9 25 13 pm](https://user-images.githubusercontent.com/43221295/53215660-97ca1480-361f-11e9-81ff-c72f604410f0.png)
 
-![screen shot 2019-02-21 at 12 03 09 am](https://user-images.githubusercontent.com/43221295/53144939-41e86480-356c-11e9-8471-9d449f3f3998.png)
+
+
+![screen shot 2019-02-21 at 9 29 08 pm](https://user-images.githubusercontent.com/43221295/53215724-de1f7380-361f-11e9-9bb6-f810c9e5995c.png)
+
+
 
 
    2: Main page
@@ -19,8 +24,7 @@ This is a responsive wepbage using third party Youtube and OMDB APis to render s
 
 
 
-
-![image](https://user-images.githubusercontent.com/43221295/50554893-1abe9680-0c91-11e9-8055-f62f99b60369.png)
+![screen shot 2019-02-21 at 9 24 43 pm](https://user-images.githubusercontent.com/43221295/53215755-fe4f3280-361f-11e9-9786-b9995c721bd4.png)
 
 
 
