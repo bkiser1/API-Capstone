@@ -9,7 +9,7 @@
 }
 
 html {
-    background: url(./red.jpg) no-repeat center center fixed;
+    background: url(./images/red.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -101,7 +101,7 @@ box-shadow: 10px 4px;
 }
 
 .poster-box {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./movie.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/movie.jpg) no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     font-family: 'Signika', sans-serif;
@@ -163,7 +163,7 @@ box-shadow: 10px 4px;
 }
 
 .video-display {
-    background: url(./vidbkg.jpeg);
+    background: url(./images/vidbkg.jpeg);
     background-size: cover;
     font-size: 10px;
     text-align: center;
