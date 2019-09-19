@@ -254,7 +254,6 @@ footer {
 }
 
 #pop-corn {
-    mix-blend-mode: multiply;
     border-radius: 50px 10px;
     -webkit-border-radius: 50px 10px;
     -moz-border-radius: 50px 10px;
