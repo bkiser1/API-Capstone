@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 .img-shape {
@@ -42,7 +43,7 @@ html {
     text-align: center;
     margin-top: 80px;
     border: 1px solid black;
-    background-color: rgba(104, 86, 86, 0.205);
+    background-color: rgba(104, 86, 86, 0.424);
     border-radius: 20px;
     color: white;
     font-size: 30px;
@@ -65,20 +66,20 @@ html {
 }
 
 .submit-button {
-background: white;
-height: 40px;
-width: 80px;
-outline: black;
-margin: 0px 6px;
-border-radius: 8px;
--webkit-border-radius: 8px;
--moz-border-radius: 8px;
--ms-border-radius: 8px;
--o-border-radius: 8px;
-font-size: 1.5rem;
-font-family: 'Fira Sans Condensed', sans-serif;
-font-family: 'Caveat', cursive;
-box-shadow: 10px 4px;
+    background: white;
+    height: 40px;
+    width: 80px;
+    outline: black;
+    margin: 0px 6px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    box-shadow: 10px 4px;
 }
 
 .form-box :hover {
@@ -115,14 +116,6 @@ box-shadow: 10px 4px;
 .poster-box, p, h2 {
     transform: none !important;
     font-size: 30px;
-}
-
-.poster-box :hover {
-    transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    -o-transform: scale(1.5);
 }
 
 .youtube-img {
@@ -171,7 +164,7 @@ box-shadow: 10px 4px;
     font-family: 'Caveat', cursive;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 768px) {
     .video-container {
         width: 300px;
         height: 200px;
@@ -181,6 +174,25 @@ box-shadow: 10px 4px;
         width: 200px;
         height: 100px;
     }
+    .header {
+        font-size: 30px
+    }
+    .form-box {
+        width: 350px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 80px;
+        border: 1px solid black;
+        background-color: rgb(175, 146, 146);
+        border-radius: 20px;
+        color: white;
+        font-size: 30px;
+        box-shadow: 10px 5px 10px black;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        font-family: 'Caveat', cursive;
+    }
     .poster-box {
         margin-top: 200px;
         word-wrap: break-word;
@@ -188,38 +200,41 @@ box-shadow: 10px 4px;
         font-size: 18px;
     }
     .poster-box p {
-        font-size: 20px;
+        font-size: 15px;
     }
     footer {
         width: 100%;
     }
-    @media only screen and (min-width: 768px) {
-        .video-container {
-            width: 450px;
-            height: 300px;
-        }
-        .video-container .youtube-img {
-            width: 300px;
-            height: 200px;
-        }
+}
+
+@media only screen and (min-width: 768px) {
+    .video-container {
+        width: 450px;
+        height: 300px;
     }
-    footer img {
-        height: 50px;
-        background: rgba(119, 10, 7, 0.822);
-        margin-top: 20px
+    .video-container .youtube-img {
+        width: 300px;
+        height: 200px;
     }
-    footer {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        background: black;
-        font-size: 30px;
-        color: white;
-        font-family: 'Fira Sans Condensed', sans-serif;
-        font-family: 'Caveat', cursive;
-        margin-top: 5px;
-        width: 100%;
-    }
+}
+
+footer img {
+    height: 50px;
+    background: rgba(119, 10, 7, 0.822);
+    margin-top: 20px
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: black;
+    font-size: 30px;
+    color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    margin-top: 5px;
+    width: 100%;
 }
 
 .poster-box button {
@@ -260,7 +275,6 @@ box-shadow: 10px 4px;
     cursor: pointer;
 }
 
-  a {
-   color: white;
+a {
+    color: white;
 }
-
